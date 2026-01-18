@@ -1,7 +1,6 @@
-const Part = (props) => {
-  const name = props.part.name
-  const exercises = props.part.exercises
-
+const Part = ({ part }) => {
+  const name = part.name
+  const exercises = part.exercises
   return (
     <div>
       <p>
